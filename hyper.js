@@ -19,7 +19,7 @@ module.exports = {
     fontSize: 16,
 
     // font family with optional fallbacks
-    fontFamily: 'Menlo, "Fira Code Regular Nerd Font Complete Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: 'Menlo, "FiraCode  Nerd Font", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
