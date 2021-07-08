@@ -10,13 +10,13 @@ module.exports = {
 
     hyperBorder: {
             animate: true,
-            borderColors: ['#005bf6', '#ff52d5'],
+            borderColors: ['#050810', '#1e3966'],
             borderWidth: '4px',
             adminBorderWidth: '4px'
 
           },
     // default font size in pixels for all tabs
-    fontSize: 16,
+    fontSize: 15,
 
     // font family with optional fallbacks
     fontFamily: 'Menlo, "FiraCode  Nerd Font", Consolas, "Lucida Console", monospace',
