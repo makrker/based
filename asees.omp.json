@@ -8,10 +8,14 @@
       "segments": [
        {
             "type": "os",
-              "style": "powerline",
+             "style": "powerline",
             "powerline_symbol": "\uE0B0",
-             "foreground": "#fe8cff",
-            "background": "#005bf6"
+             "foreground": "#ffffff",
+            "background": "#0a0b0d"
+
+
+
+
         },
 
         {
@@ -21,7 +25,6 @@
   "foreground": "#191a1a",
   "background": "#3A86FF",
   "properties": {
-    "prefix": "\uF9C6 ",
     "playing_icon": "\uE602 ",
     "paused_icon": "\uF8E3 ",
     "stopped_icon": "\uF04D ",
@@ -33,12 +36,12 @@
           "style": "powerline",
           "powerline_symbol": "",
           "foreground": "#ffffff",
-          "background": "#ff479c",
+          "background": "#0037ef",
           "properties": {
             "prefix": "   ",
-            "home_icon": "~",
-            "folder_separator_icon": " \uE0b1 ",
-            "style": "folder"
+            "home_icon": "\uD83C\uDFE1",
+            "folder_separator_icon": " \u215F ",
+            "style": "full"
           }
         },
         {
@@ -161,10 +164,10 @@
           "type": "shell",
           "style": "plain",
           "foreground": "#ffffff",
-          "background": "#0077c2",
+          "background": "#0a0b0d",
           "properties": {
-            "prefix": "<#0077c2,transparent>\uE0B6</>  ",
-            "postfix": " <transparent,#0077c2>\uE0B2</>"
+            "prefix": "<#0a0b0d,transparent>\uE0B6</>  "
+          
           }
         },
         {
@@ -195,7 +198,7 @@
             "color_background": true,
             "charged_color": "#4caf50",
             "charging_color": "#40c4ff",
-            "discharging_color": "#ff5722",
+            "discharging_color": "#91f70c",
             "postfix": " "
           }
         }
