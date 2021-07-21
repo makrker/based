@@ -40,7 +40,7 @@
           "properties": {
             "prefix": "   ",
             "home_icon": "\uD83C\uDFE1",
-            "folder_separator_icon": " \u215F ",
+            "folder_separator_icon": " \u2571 ",
             "style": "full"
           }
         },
