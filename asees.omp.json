@@ -49,7 +49,7 @@
           "properties": {
             "prefix": "   ",
             "home_icon": "\uD83C\uDFE1",
-            "folder_separator_icon": " \u2571",
+            "folder_separator_icon": " \u2937",
             "style": "full"
           }
         },
