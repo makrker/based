@@ -44,12 +44,12 @@
           "type": "path",
           "style": "powerline",
           "powerline_symbol": "",
-          "foreground": "#ffffff",
-          "background": "#0037ef",
+          "foreground": "#1A237E",
+          "background": "#33984b",
           "properties": {
             "prefix": "   ",
             "home_icon": "\uD83C\uDFE1",
-            "folder_separator_icon": " \u2937",
+            "folder_separator_icon": " \u21A3",
             "style": "full"
           }
         },
