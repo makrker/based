@@ -10,8 +10,8 @@
             "type": "os",
              "style": "powerline",
             "powerline_symbol": "\uE0B0",
-             "foreground": "#ffffff",
-            "background": "#0a0b0d"
+             "foreground": "#c80e0e",
+            "background": "#203c56"
           },
 
 
@@ -19,8 +19,8 @@
               "type": "session",
               "style": "powerline",
               "powerline_symbol": "\uE0B0",
-              "foreground": "#c9c7ec",
-              "background": "#3b337a",
+              "foreground": "#5020b6",
+              "background": "#9cdbfc",
               "properties": {
                 "display_host": true,
                 "postfix": " "
@@ -45,11 +45,11 @@
           "style": "powerline",
           "powerline_symbol": "",
           "foreground": "#1A237E",
-          "background": "#33984b",
+          "background": "#ffc494",
           "properties": {
             "prefix": "   ",
             "home_icon": "\uD83C\uDFE1",
-            "folder_separator_icon": " \u21A3",
+            "folder_separator_icon": " \u007E",
             "style": "full"
           }
         },
