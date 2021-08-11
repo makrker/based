@@ -10,16 +10,17 @@ module.exports = {
 
     hyperBorder: {
             animate: true,
-            borderColors: ['#050810', '#1e3966'],
-            borderWidth: '4px',
-            adminBorderWidth: '4px'
+            borderColors: ['#050810', '#1e3966'], 
+            duration: '18000',
+            borderWidth: '4px' ,
+            adminBorderWidth: '4px',
 
           },
     // default font size in pixels for all tabs
-    fontSize: 15,
+    fontSize: 13,
 
     // font family with optional fallbacks
-    fontFamily: 'Menlo, "MesloLGDMZ Nerd Font", Consolas, "Lucida Console", monospace',
+    fontFamily: 'Menlo, "MesloLGMDZ Nerd Font", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -153,7 +154,14 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["seti-hyper","hyperborder"],
+  plugins: [
+    "seti-hyper",
+    "hyperborder",
+    "hyper-folder-icon",
+    "hyper-transparent-dynamic",
+    "hyper-tabs-enhanced",
+    "hyper-dark-scrollbar"
+  ],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
