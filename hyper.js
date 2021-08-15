@@ -16,8 +16,12 @@ module.exports = {
             adminBorderWidth: '4px',
 
           },
+ hyperTabs: {
+        border: false,
+    trafficButtons: true,
+    }
     // default font size in pixels for all tabs
-    fontSize: 13,
+    ,fontSize: 13,
 
     // font family with optional fallbacks
     fontFamily: 'Menlo, "MesloLGMDZ Nerd Font", Consolas, "Lucida Console", monospace',
@@ -157,10 +161,9 @@ module.exports = {
   plugins: [
     "seti-hyper",
     "hyperborder",
-    "hyper-folder-icon",
-    "hyper-transparent-dynamic",
-    "hyper-tabs-enhanced",
-    "hyper-dark-scrollbar"
+    "hyper-chesterish",
+    "hyper-statusline",
+    "hyper-tab-icons"
   ],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
