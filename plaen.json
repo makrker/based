@@ -1,0 +1,226 @@
+
+
+{
+    "blocks": [
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+         {
+              "type": "os",
+               "style": "plain",
+               "foreground": "#c80e0e"
+              
+            },
+  
+  
+              {
+                "type": "session",
+                "style": "plain",
+                "foreground": "#5ac54f",
+               
+                "properties": {
+                  "display_host": true,
+                  "postfix": " "
+                }
+          },
+  
+          {
+            "type": "spotify",
+    "style": "diamond",
+   
+    "foreground": "#191a1a",
+    "properties": {
+      "playing_icon": "\uE602 ",
+      "paused_icon": "\uF8E3 ",
+      "stopped_icon": "\uF04D ",
+      "track_separator" : " - "
+            }
+          },
+          {
+            "type": "exit",
+            "style": "plain",
+               
+          
+            "foreground": "#c2390f",
+            
+            "properties": {
+              "prefix": "\u2717",
+            "display_exit_code": true
+            }
+          },
+          { 
+            "type": "path",
+            "style": "plain" ,
+            
+            "foreground": "#1A237E",
+           
+            "properties": {
+              "prefix": "   ",
+              "home_icon": "\uD83C\uDFE1",
+              "folder_separator_icon": " \u007E",
+              "style": "full"
+            }
+          },
+          {
+            "type": "git",
+            "style": "plain",
+           
+            "foreground": "#193549",
+           
+            "properties": {
+              "display_stash_count": true,
+              "display_upstream_icon": true,
+              "status_colors_enabled": true,
+              "local_changes_color": "#ff9248",
+              "ahead_and_behind_color": "#f26d50",
+              "behind_color": "#f17c37",
+              "ahead_color": "#89d1dc",
+              "stash_count_icon": "\uF692 "
+            }
+          },
+          {
+            "type": "node",
+            "style": "plain",
+           
+            "foreground": "#ffffff",
+            
+            "properties": {
+              "prefix": " \uF898 ",
+              "display_version": true
+            }
+          },
+          {
+            "type": "text",
+            "style": "plain",
+            "foreground": "#98C379",
+            "properties": {
+              "prefix": "",
+              "text": "\u279C",
+              "postfix": ""
+            }
+          },
+          {
+            "type": "go",
+            "style": "plain",
+           
+            "foreground": "#111111",
+            "background": "#8ED1F7",
+            "properties": {
+              "prefix": " \uE626 ",
+              "display_version": true
+            }
+          },
+          {
+            "type": "julia",
+            "style": "plain",
+           
+            "foreground": "#111111",
+            "background": "#4063D8",
+            "properties": {
+              "prefix": " \uE624 ",
+              "display_version": true
+            }
+          },
+          {
+            "type": "python",
+            "style": "plain",
+           
+            "foreground": "#111111",
+           
+            "properties": {
+              "prefix": " \uE235 ",
+              "display_version": true,
+              "display_mode": "files",
+              "display_virtual_env": false
+            }
+          },
+          {
+            "type": "ruby",
+            "style": "plain",
+           
+            "foreground": "#ffffff",
+            
+            "properties": {
+              "prefix": " \uE791 ",
+              "display_version": true,
+              "display_mode": "files"
+            }
+          },
+          {
+            "type": "azfunc",
+            "style": "plain",
+           
+            "foreground": "#ffffff",
+           
+            "properties": {
+              "prefix": " \uf0e7",
+              "display_version": false,
+              "display_mode": "files"
+            }
+          },
+          {
+            "type": "aws",
+            "style": "plain",
+           
+            "foreground": "#ffffff",
+            "background_templates": [
+              "{{if contains \"default\" .Profile}}#FFA400{{end}}",
+              "{{if contains \"jan\" .Profile}}#f1184c{{end}}"
+            ],
+            "properties": {
+              "prefix": " \uE7AD ",
+              "display_default": false
+            }
+          },
+          {
+            "type": "root",
+            "style": "plain",
+           
+            "foreground": "#111111",
+           
+            "properties": {
+              "root_icon": ""          
+            }
+          },
+          {
+            "type": "ytm",
+            "style": "plain",
+            
+            "invert_plain": true,
+            "foreground": "#111111",
+           
+            "properties": {
+              "prefix": " \uF167 ",
+              "paused_icon": " ",
+              "playing_icon": " "
+            }
+          },
+          {
+            "type": "battery",
+            "style": "plain",
+            "invert_plain": true,
+            
+            "foreground": "#ffffff",
+           
+            "properties": {
+              "battery_icon": "",
+              "discharging_icon": " ",
+              "charging_icon": " ",
+              "charged_icon": " ",
+              "color_background": true,
+              "charged_color": "#4caf50",
+              "charging_color": "#40c4ff",
+              "discharging_color": "#91f70c",
+              "postfix": " "
+            }
+          }
+        ]
+      }
+    ],
+    "final_space": true,
+    "console_title": true,
+    "console_title_style": "template",
+    "console_title_template": "{{ .Shell }} in {{ .Folder }}"
+  }
+  
